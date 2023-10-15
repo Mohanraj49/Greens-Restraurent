@@ -1,0 +1,49 @@
+body {
+  overflow: hidden;
+
+}
+
+.new {
+  position: absolute;
+  top: 30px;
+  animation: flight 5s ease-in-out 0s 1 forwards;
+}
+
+@keyframes flight {
+  0% {
+    transform: translate(-300px);
+  }
+
+  50% {
+    transform: translate(500px);
+    transform: scale(2);
+    margin-top: 470px;
+  }
+
+  100% {
+    transform: translate(1600px);
+  }
+}
+
+.ride {
+  position: absolute;
+  top: 390px;
+  left: -400px;
+  animation: collect 4s ease-in-out 0.5s 1 forwards;
+  border-color: transparent;
+}
+
+@keyframes collect {
+  0% {
+    transform: translate(-300px);
+  }
+
+  50% {
+    transform: translate(500px);
+
+  }
+
+  100% {
+    transform: translate(1800px);
+  }
+}

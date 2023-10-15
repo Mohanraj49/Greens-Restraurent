@@ -1,0 +1,197 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: linear-gradient(to right, black, whitesmoke);
+    color: white;
+    @media(min-width: 320px; )
+}
+
+h1 {
+    height: 60px;
+    background: linear-gradient(to right, black, whitesmoke);
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pic1 {
+    width: 600px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(chicken.jpg);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    background-position: top;
+    float: left;
+    display: inline-block;
+}
+
+#pic2 {
+    width: 500px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(cook.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#pic3 {
+    width: 600px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(curd.jpg);
+    background-size: 100%;
+    background-position: center;
+    float: left;
+    display: inline-block;
+}
+
+#pic4 {
+    width: 500px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(decoration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#pic5 {
+    width: 600px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(family.jpg);
+    background-size: 100%;
+    background-position: center;
+    float: left;
+    display: inline-block;
+}
+
+#pic6 {
+    width: 500px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(simple\ talk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#pic7 {
+    width: 600px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(wine.jpg);
+    background-size: 100%;
+    background-position: center;
+    float: left;
+    display: inline-block;
+}
+
+#pic8 {
+    width: 500px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(jameson.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#pic9 {
+    width: 600px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(jd.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    float: left;
+    display: inline-block;
+}
+
+#pic10 {
+    width: 500px;
+    height: 350px;
+    border: 5px solid gray;
+    margin: 5px;
+    background-image: url(glas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+button:hover {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 3px red;
+}
+}
+
+div [id]:hover {
+    transform: scale(1.02);
+}

@@ -1,0 +1,99 @@
+* {
+    @media(min-width:320px);
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+
+}
+
+.img {
+    height: 500px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 2px solid black;
+    background-image: url(reception.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box1 {
+    height: 80px;
+    width: 600px;
+    border: 2px solid black;
+    position: relative;
+    top: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, red, blue);
+    color: white;
+    font-variant: small-caps;
+    font-size: x-large;
+}
+
+address {
+    margin-top: -10px;
+    font-size: larger;
+
+}
+
+section {
+    background: linear-gradient(to right, white, grey);
+}
+
+.a:active {
+    color: yellow;
+}
+
+.b:active {
+    color: yellow;
+}
+
+.c:active {
+    color: yellow;
+}
+
+#icon {
+    padding: 20px;
+    height: 60px;
+    ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+section a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    background: linear-gradient(to right, grey, white, grey)
+}
+
+button:hover {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 3px red;
+}
+}
+
+i:hover {
+    font-size: xx-large;
+    color: red;
+}
+
+#icon a {
+    transition: all 1s ease-in-out;
+
+}
+
+#icon a:hover {
+    transform: rotate(360deg);
+}
